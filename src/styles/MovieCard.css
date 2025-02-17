@@ -1,0 +1,58 @@
+.movieCard {
+  position: relative;
+  display: inline-block; /* Ensures each card is treated individually */
+  margin-right: 0; /* Reset any default margins */
+  margin-left: 0; /* Reset any default margins */
+}
+
+.movieCard img {
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.movieLink {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.movieCard:hover .movieLink {
+  backdrop-filter: blur(5px);
+  opacity: 1;
+}
+
+.movieInfo {
+  text-align: center;
+}
+
+.priority {
+  position: absolute;
+  z-index: -1;
+  font-size: 8em;
+  margin-left: -1.2em;
+  margin-top: 1.3em;
+  letter-spacing: -0.1em;
+}
+
+
+.towatchlist-movieCard {
+  width: 100%;
+  margin-left: 7em; /* Adjust the value as needed */
+}
+
+#towatchlist {
+  grid-template-columns: repeat(auto-fill, minmax(60em, 10fr));
+  margin-left: 2em;
+}

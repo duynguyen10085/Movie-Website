@@ -1,0 +1,177 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+
+/* Center the movie container */
+.movie-container {
+    display: flex;
+    width: 95em;
+    margin: 3.55em auto;
+    margin-left: 11em;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: gray;
+  }
+  
+  /* Style the image */
+  .movie-container img {
+    position: relative;
+    width: 110%;
+    max-width: 26em;
+    min-width: 26em;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style the text elements */
+  .movie-container h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    align-self: center;
+  }
+  
+  .movie-container p {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Style the link */
+  .movie-container a {
+    display: flex;
+    background-color: #007bff;
+    border-radius: 1em;
+    padding: .5em;
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+
+  
+  .movie-container a:hover {
+    background-color: #0056b3;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column; /* Ensure the direction is column for rows */
+    align-items: flex-start;
+    margin-left: 3em;
+  }
+
+  hr {
+    width: 100%;
+    opacity: 0.5;
+  }
+
+  .movie-button {
+    display: flex;
+  }
+
+  .movie-button button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .movie-button button:hover::before {
+    color: grey;
+  }
+
+  .movie-button button:hover {
+    cursor: pointer;
+  }
+
+  .movie-button button::before {
+    display: inline-block;
+    position: absolute;
+    font-size: 5.4em;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f02e";
+    top: 4.55em;
+    left: 3em;
+    color: black;
+    opacity: 0.7;
+  }
+
+  .movie-button button::after {
+    display: inline-block;
+    position: absolute;
+    font-size: 3.24em;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\2b";
+    top: 7.8em;
+    left: 5.18em;
+    color: white;
+  }
+
+
+  
+
+  .movie-button  button.added::before{
+    display: inline-block;
+    position: absolute;
+    font-size: 5.4em;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f02e";
+    left: 3.015em;
+    top: 4.57em;
+    color: rgb(245, 197, 24);
+    opacity: 1;
+  }
+
+  .movie-button  button.added::after{
+    display: inline-block;
+    position: absolute;
+    font-size: 3,2em;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    left: 5.2em;
+    top: 7.85em;
+    color: black;
+    
+  }
+
+
+
+
+  .movie-button button,
+.movie-button p {
+  transition: opacity 2s ease, transform 2s ease;
+}
+
+.CompleteList button {
+  font-size: 1.5em;
+  border-radius: 1em;
+  padding: .8em;
+  cursor: pointer;
+  background-color: rgb(120, 4, 135);
+  color: white;
+}
+
+.CompleteList button:hover{
+  background-color: rgb(89, 4, 100);
+}
+
+

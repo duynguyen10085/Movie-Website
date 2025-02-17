@@ -1,0 +1,77 @@
+body {
+  display: grid;
+  grid-template-areas: 'header'
+                       'main';
+  background-color: black;
+  color: white;
+}
+
+header {
+  grid-area: header;
+  font-size: 3em;
+}
+
+main {
+  grid-area: main;
+  
+}
+
+.movie-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
+}
+
+
+span {
+  margin: 0 0.1em;
+}
+
+
+article {
+  margin: .2em;
+  margin-top: 2em;
+  max-width: 14em;
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+img {
+  width: 10em;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+h1 {
+  display: flex;
+  margin-left: 0.75em;
+}
+
+.yellow {
+  color: rgb(245, 197, 24);
+  font-size: 0.5em;
+  padding-top: 1em;
+}
+
+.pagination {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 1em;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination button:hover {
+  background-color: #0056b3;
+}
+
+

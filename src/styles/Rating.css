@@ -1,0 +1,106 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+.rating-container {
+    position: relative;
+}
+
+
+.rating-container button, .rating-div button {
+    padding: 0.2em 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.rating-div {
+    position: absolute;
+    top: 5em;
+    left: 9em;
+    background-color: rgb(36, 36, 36);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 19.5em;
+    height: 11.5em;
+    z-index: 2;
+}
+
+.rating-div h3 {
+    margin-left: .2em;
+    margin-top: 0;
+}
+
+.rating-div input {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: .5em;
+    font-size: 16px;
+    margin-left: 4.5em;
+}
+
+
+.rating-container button {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    font-size: 1.3em;
+    color: #075cb7;
+}
+
+.rating-container button:hover {
+    color:#054589;
+    background-color: rgb(202, 163, 21);
+}
+
+
+.rating-div button {
+    padding: 10px 4.4em;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 1em;
+    margin-left: 4.6em;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(245, 197, 24);
+}
+
+
+#star-div {
+    position: absolute;
+    color: #2c90fa;
+    font-size: 6em;
+    top: -.67em;
+    left: 1.3em;
+}
+
+.rating-div h3 {
+    margin-top: 2em;
+    text-align: center;
+    color: rgb(245, 197, 24);
+}
+
+.rating-container i:first-of-type {
+    position: absolute;
+    top: 0.4em;
+}
+
+.rating-container p {
+    position: absolute;
+    left: .7em;
+    top: -0.01em;
+}
+
+#close-towatchlist-btn{
+    position:absolute;
+    top: -1.3em;
+    left: 1.1em;
+    background-color: transparent;
+    font-size:  2em;
+    color: white;
+}
+
+
+
+
+
+

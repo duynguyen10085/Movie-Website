@@ -1,0 +1,131 @@
+#towatchlist {
+    background-color: black;
+    margin-top: 3em;
+    margin-left: 0;
+    color: black;
+  }
+  
+  #towatchlist .movie {
+    display: flex;
+    margin-bottom: 1em;
+    margin-left: 0;
+  }
+  
+  #towatchlist .poster-container {
+    position: relative; /* Set relative positioning */
+    margin-right: 1em;
+    margin-left: 3em;
+    margin-top: 2em;
+  }
+  
+  #towatchlist img {
+    width: 10em;
+    height: 14em;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .bookmark-icon {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background: rgba(0, 0, 0, 0.5); /* Optional background for better visibility */
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  .bookmark-icon button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .bookmark-icon p {
+    color: yellow;
+    font-size: 1.5em;
+  }
+  
+  #towatchlist .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2em;
+  }
+  
+  #towatchlist .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+  }
+  
+  .text-container p, .text-container h2 {
+    margin: 0.6em 0; /* Adjust vertical spacing between lines */
+    padding: 0; /* Remove padding */
+    font-size: 1.5em;
+  }
+
+  .text-container h2 {
+    font-size: 2em;
+  }
+  
+  .text-container .row p {
+    margin: 0 0.5em; /* Adjust horizontal spacing in row */
+    padding: 0; /* Remove padding */
+
+  }
+  
+  #towatchlist-container {
+    background-color: gray;
+    border: solid red .1em;
+    border-radius: 2em;
+    color: white;
+    margin: 5em auto;
+    width: 80%;
+    height: auto;
+    padding-right: 1em;
+  }
+
+  #towatchlist .movie-button {
+    position: absolute;
+    top: -10.3em;
+    left: -6.8em;
+  }
+  
+  #towatchlist .movie-button .added {
+    position: absolute; /* Adjust as needed */
+    top: -.2em;
+    left: 0;
+  }
+
+  #priority-form input {
+    margin-left: 1em;
+  }
+
+  #priority-form {
+    display: flex;
+  }
+
+  #towatchlist .movie{
+    padding-bottom: 3em;
+    border-bottom: solid black .2em;
+  }
+
+  #towatchlist .movie:last-child{
+    border: none;
+  }
+
+  .row {
+    margin-bottom: 2em;
+  }
+
+.text-container .row:nth-child(5){
+  font-size: 1.4em;
+}
+
+.text-container form {
+  font-size: 1.3em;
+margin-bottom: 1.5em;
+}

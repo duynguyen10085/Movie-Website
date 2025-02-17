@@ -1,0 +1,103 @@
+#completedWatchList {
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 3em;
+  color: black;
+}
+
+#completedWatchList .movie {
+  display: flex;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-top: 2em;
+}
+
+#completedWatchList .poster-container {
+  position: relative; /* Set relative positioning */
+  margin-right: 1em;
+  margin-left: 3em;
+  margin-top: 2em;
+}
+
+#completedWatchList img {
+  width: 10em;
+  height: 14em;
+  display: block;
+  border-radius: 5px;
+}
+
+.bookmark-icon {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  background: rgba(0, 0, 0, 0.5); /* Optional background for better visibility */
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.bookmark-icon button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.bookmark-icon p {
+  color: yellow;
+  font-size: 1.5em;
+}
+
+#completedWatchList .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#completedWatchList .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.text-container p, .text-container h2 {
+  margin: 0.6em 0; /* Adjust vertical spacing between lines */
+  padding: 0; /* Remove padding */
+}
+
+.text-container .row p {
+  margin: 0 0.5em; /* Adjust horizontal spacing in row */
+  padding: 0; /* Remove padding */
+}
+
+#completedWatchList-container {
+  background-color: gray;
+  border: solid red .1em;
+  border-radius: 2em;
+  color: white;
+  margin: 5em 11em;
+  width: 93em;
+  height: auto;
+}
+
+#completedWatchList .movie{
+    padding-bottom: 3em;
+    border-bottom: solid black .2em;
+  }
+
+#completedWatchList .movie:last-child{
+    border: none;
+  }
+
+
+.watched-time-section p {
+    color: red;
+  }
+
+.text-container .row:nth-child(5) p {
+  font-size: 1.2em;
+}
+
+
+  

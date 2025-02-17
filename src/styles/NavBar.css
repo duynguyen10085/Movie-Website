@@ -1,0 +1,79 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+
+.links a {
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin: auto 1em;
+
+  }
+
+.links {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+form {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: end;
+    margin-right: .7em;
+}
+
+input {
+    font-size: .7em;
+    padding: .5em;
+    background-color: rgb(67, 67, 67);
+    color: white;
+    border-radius: .4em;
+    border: none;
+}
+
+form button {
+        background: none; /* Remove background color */
+        border: none; /* Remove border */
+        font: inherit; /* Inherit font settings from parent */
+        cursor: pointer; /* Show pointer cursor on hover */
+        display: flex; /* Use flex to center the icon */
+}
+  
+a.active {
+    color: #0693e3;
+}
+
+.links a:hover {
+    color: #0693e3;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    font-size: .7em;
+    align-items: center;
+}
+
+#search-form button::before {
+    display: inline-block;
+    position: absolute;
+    margin-top: -1.65em;
+    margin-left: 11.5em;
+    font-size: .7em;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f002";
+    color: white;
+}
+
+form button:hover::before {
+    color: #0693e3;
+}
+
+
+  
+  
